@@ -2,10 +2,10 @@ import os
 from os import getenv
 
 class Config:
-    TELEGRAM_TOKEN = getenv("TELEGRAM_TOKEN", None)
+    TELEGRAM_TOKEN = getenv("6152349862:AAHgp4yWPAWkZJzooe8h0SF32wKQpXNl05Q", None)
     PYRO_SESSION = getenv("PYRO_SESSION", None)
-    TELEGRAM_APP_HASH= getenv('TELEGRAM_APP_HASH')
-    TELEGRAM_APP_ID=int(getenv('TELEGRAM_APP_ID'))
+    TELEGRAM_APP_HASH= getenv('10e3ed833b0d09699973420d45359409')
+    TELEGRAM_APP_ID=int(getenv('4665778'))
         
     if not TELEGRAM_APP_HASH:
         raise ValueError("TELEGRAM_APP_HASH not set")
